@@ -83,12 +83,12 @@ hr {
 .performance-section {
     width: 100%;
     text-align: center;
+    background-image: url(/005.jpg);
 }
 
 .contact-section {
   background-color: rgb(82, 82, 82);
   height: 5rem;
-  margin-top: 2rem;
 }
 
 .video {
