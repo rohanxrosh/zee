@@ -83,7 +83,10 @@ hr {
 .performance-section {
     width: 100%;
     text-align: center;
-    background-image: url(005.jpg);
+    background-image: url("005.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contact-section {
