@@ -72,8 +72,8 @@ hr {
   color: white;
   text-decoration: none;
   font-size: 2rem;
-  position: relative;
-  right: 17rem;
+  position: absolute;
+  left: 4rem;
 }
 #name {
     font-family: serif;
@@ -81,7 +81,6 @@ hr {
 }
 
 .performance-section {
-    height: 500px;
     width: 100%;
     text-align: center;
 }
@@ -100,4 +99,63 @@ hr {
 .rights {
   color: #dfdfdf;
   padding: 2rem;
+}
+
+.nav {
+  display: inline-block;
+}
+
+#side-drawer {
+  background-color: #212122;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+@media (max-width : 768px){
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #name {
+    font-size: 1.2rem;
+  }
+  .img-txt {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .dp {
+    float: none;
+    height: 200px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+  .menu-btn {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 2rem;
+  }
+  .menu-btn span {
+    width: 100%;
+    height: 3px;
+    background-color: #dfdfdf;
+  }
 }
