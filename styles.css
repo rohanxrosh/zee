@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: #212122;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+}
+
+div {
+  background-color: #212122;
+}
+
+a:hover {
+  color: #dfdfdf;
+}
+.main-img {
+  width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #dfdfdf;
+}
+
+hr {
+    color: #dfdfdf;
+    border-style: dotted;
+    border-bottom-style: none;
+    width: 5%;
+    border-width: 5px;
+}
+
+.about-section {
+  background-color: #212122;
+  width: 60%;
+  margin: 0 auto;
+  padding: 4rem;
+  padding-top: 0.5rem;
+}
+
+.img-txt {
+  left: auto;
+  right: auto;
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.dp {
+  height: 160px;
+  float: left;
+  border-radius: 5%;
+  margin-right: 2rem;
+}
+
+.header {
+  display: inline-block;
+  color: gray;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+.navigation-bar {
+  height: 2.5rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  opacity: 0.6;
+}
+#logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  position: relative;
+  right: 17rem;
+}
+#name {
+    font-family: serif;
+    font-size: 2rem;
+}
+
+.performance-section {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-section {
+  background-color: rgb(82, 82, 82);
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.video {
+  height: 25rem;
+  margin: 1rem;
+}
+
+.rights {
+  color: #dfdfdf;
+  padding: 2rem;
+}
